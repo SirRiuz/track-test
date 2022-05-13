@@ -52,6 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'core.urls'
+ALLOWED_HOSTS = '*'
 
 
 REST_FRAMEWORK = {

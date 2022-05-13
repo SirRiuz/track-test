@@ -4,5 +4,5 @@ db.sqlite3
 core/__pycache__
 tracks/__pycache__
 tracks/migrations
-
+.db_data
 
