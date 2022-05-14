@@ -29,7 +29,7 @@ es más fácil porque<br/> no tienes que instalar nada, solo tienes que realizar
 
 ## Endpoints
 
-Estas son todas las rutas que me permitem interactuar con los `Tracks`. [Live demo](https://tracks-api-test.herokuapp.com/api/v1/track/)
+Estas son todas las rutas que me permitem interactuar con los `Tracks`. [Live demo](https://tracks-api-test.herokuapp.com/api/v1/tracks/)
 
 Method | HTTP request | Description
  ------------- | ------------- | -------------
