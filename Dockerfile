@@ -13,6 +13,7 @@ COPY . .
 
 
 RUN pip3 install -r requirements.txt
+RUN python manage.py makemigrations tracks
 RUN python manage.py migrate
 RUN python manage.py test tracks
 
