@@ -4,7 +4,7 @@ FROM python:3
 
 
 ENV PYTHONUNBUFFERED 1
-
+ENV PYTHONDONTWRITEBYTECODE 1
 
 WORKDIR /app
 
@@ -17,9 +17,12 @@ RUN python manage.py migrate
 RUN python manage.py test tracks
 
 
+EXPOSE 8000
 
 
-# CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
+
+# CMD python manage.py runserver 0.0.0.0:$PORT   - Command deploy heroku
+CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
 
 
 
