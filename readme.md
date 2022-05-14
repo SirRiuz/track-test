@@ -33,13 +33,13 @@ Estas son todas las rutas que me permitem interactuar con los `Tracks`. [Live de
 
 Method | HTTP request | Description
  ------------- | ------------- | -------------
-**GET** | [/tracks/](https://tracks-api-test.herokuapp.com/api/v1/tracks/) | Devuelve los 50 mejores pistas
+**GET** | [/tracks/](http://tracks-api-test.herokuapp.com/api/v1/tracks/?format=json&limit=50) | Devuelve los 50 mejores pistas
 **GET** | [/tracks/?q=bailar](https://tracks-api-test.herokuapp.com/api/v1/tracks/?q=bailar)| Busca pistas por su nombre
-**GET** | [/tracks/?artist=Bad Bunny](https://tracks-api-test.herokuapp.com/api/v1/tracks/?artist=Bad%20Bunny)| Busca pistas por artista
-**GET** | [/tracks/?gender=pop](https://tracks-api-test.herokuapp.com/api/v1/tracks/?gender=pop)| Busca pistas por genero
-**POST** | [/track/](https://tracks-api-test.herokuapp.com/api/v1/track/)| Permite crear nuevas pistas. [Mira los parámetros aquí](https://github.com/SirRiuz/track-test/blob/master/tracks/serializers.py)
-**GET** | [/track/{id}/](https://tracks-api-test.herokuapp.com/api/v1/track/1/)| Devuelve una pista por medio de su id
-**DELETE** | [/track/{id}/](https://tracks-api-test.herokuapp.com/api/v1/track/1/)| Elimina una pista por medio de su id
+**GET** | [/tracks/?artist=Bad Bunny](https://tracks-api-test.herokuapp.com/api/v1/tracks/?artist=Bad+Bunny&format=json)| Busca pistas por artista
+**GET** | [/tracks/?gender=Rap](https://tracks-api-test.herokuapp.com/api/v1/tracks/?format=json&gender=Rap)| Busca pistas por genero
+**POST** | [/track/](https://tracks-api-test.herokuapp.com/api/v1/track/?format=json)| Permite crear nuevas pistas. [Mira los parámetros aquí](https://github.com/SirRiuz/track-test/blob/master/tracks/serializers.py)
+**GET** | [/track/{id}/](https://tracks-api-test.herokuapp.com/api/v1/track/4/?format=json)| Devuelve una pista por medio de su id
+**DELETE** | [/track/{id}/](https://tracks-api-test.herokuapp.com/api/v1/track/4/?format=json)| Elimina una pista por medio de su id
 
 
 
