@@ -4,8 +4,7 @@
 En este repositorio se encuentra todo el código fuente de la prueba técnica que estoy<br/>
 realizando para el puesto de Python Backend Developer en [Spotcloud](https://spotcloud.io/) .
 
-La prueba técnica consiste en la creación de una API utilizando python - Django que me permita crear, actualizar<br/>y obtener Tracks . Si bien la aplicación es algo muy simple de hacer el proceso de desarrollo es algo complejo y llevo<br/>tiempo
-:blush: 
+La prueba técnica consiste en la creación de una API utilizando python - Django que me permita crear, actualizar<br/>y obtener Tracks . Si bien la aplicación es algo muy simple de hacer el proceso de desarrollo<br/> es algo complejo y llevo un poco tiempo :blush: 
 
 Para este proyecto estoy utilizando:
 
