@@ -14,7 +14,7 @@ Para este proyecto estoy utilizando:
 
 <br/>
 
-### Instalacion
+### Instalación
 
 Para ejecutar el proyecto correctamente es indispensable tener `Docker` instalado en tu computador.
 ```
@@ -37,7 +37,7 @@ Method | HTTP request | Description
 **GET** | [/tracks/?q=bailar](https://tracks-api-test.herokuapp.com/api/v1/tracks/?q=bailar)| Busca pistas por su nombre
 **GET** | [/tracks/?artist=Bad Bunny](https://tracks-api-test.herokuapp.com/api/v1/tracks/?artist=Bad%20Bunny)| Busca pistas por artista
 **GET** | [/tracks/?gender=pop](https://tracks-api-test.herokuapp.com/api/v1/tracks/?gender=pop)| Busca pistas por genero
-**POST** | [/track/](https://tracks-api-test.herokuapp.com/api/v1/track/)| Permite crear nuevas pistas. [Mira los parametros aqui](https://github.com/SirRiuz/track-test/blob/master/tracks/serializers.py)
+**POST** | [/track/](https://tracks-api-test.herokuapp.com/api/v1/track/)| Permite crear nuevas pistas. [Mira los parámetros aquí](https://github.com/SirRiuz/track-test/blob/master/tracks/serializers.py)
 **GET** | [/track/{id}/](https://tracks-api-test.herokuapp.com/api/v1/track/1/)| Devuelve una pista por medio de su id
 **DELETE** | [/track/{id}/](https://tracks-api-test.herokuapp.com/api/v1/track/1/)| Elimina una pista por medio de su id
 
